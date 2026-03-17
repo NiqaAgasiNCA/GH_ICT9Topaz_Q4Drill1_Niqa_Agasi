@@ -1,7 +1,7 @@
 // Q4 Drill 1
 function electricity() {
     let electricity_name = document.getElementById("elec1").value.toLowerCase();
-        if (electricity_name > 0 && electricity_name <= 100) {
+        switch (electricity_name > 0 && electricity_name <= 100) {
         window.alert('Discounted electricity rates')
     }
    else if (electricity_name > 101 && electricity_name <= 200) {
